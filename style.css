@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Pixelify+Sans:wght@400..700&display=swap');
+
+body {
+  font-family: "Madimi One", sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  justify-content: space-around;
+  background: #fbb3c3;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.calculator {
+  width: 425px;
+  height: 365px;
+  display: flex;
+  flex-direction: column;
+  background: #faebd6;
+  border-radius: 25px;
+  align-items: center;
+  border-bottom: solid gray 3px;
+}
+
+.screen-button {
+  width: 90%;
+  height: 22%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.screen {
+  font-size: 40px;
+  width: 68%;
+  height: 38px;
+  background: #818181;
+  color: white;
+  text-align: end;
+  border-radius: 10px;
+  margin-top: 13px;
+}
+
+.clear {
+  font-size: 28px;
+  background: #a42b2a;
+  color: white;
+  margin-top: 12px;
+  margin-left: 9px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  height: 78%;
+}
+
+.button-left {
+  width: 75%;
+  height: 95%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.button-right {
+  width: 20%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+button {
+  font-size: 30px;
+  width: 70px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: black;
+  color: #fcfcfc;
+  border: 0;
+  box-shadow: 2px 2px 5px black;
+}
+
+button:hover {
+  background: lightpink;
+}
+
+.group {
+  width: 80%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  justify-content: space-around;
+}

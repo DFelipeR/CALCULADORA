@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <h1>🧮CALCULADORA➕</h1>
+    <div class="calculator">
+      <div class="screen-button">
+        <button class="clear" onclick="clr()">C</button>
+        <input type="text" id="textval" class="screen" />
+      </div>
+      <div class="buttons">
+        <div class="button-left">
+          <div class="group">
+            <button onclick="display('9')">9</button>
+            <button onclick="display('8')">8</button>
+            <button onclick="display('7')">7</button>
+          </div>
+          <div class="group">
+            <button onclick="display('6')">6</button>
+            <button onclick="display('5')">5</button>
+            <button onclick="display('4')">4</button>
+          </div>
+          <div class="group">
+            <button onclick="display('3')">3</button>
+            <button onclick="display('2')">2</button>
+            <button onclick="display('1')">1</button>
+          </div>
+          <div class="group">
+            <button onclick="Calculate()">=</button>
+            <button onclick="display('0')">0</button>
+            <button onclick="display('.')">.</button>
+          </div>
+        </div>
+        <div class="button-right">
+          <button onclick="display('+')">+</button>
+          <button onclick="display('-')">-</button>
+          <button onclick="display('x')">x</button>
+          <button onclick="display('/')">/</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
